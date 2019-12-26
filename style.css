@@ -41,7 +41,7 @@ body
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 60px;
-	text-aling: left;
+	text-align: left;
 }
 
 .tile1
@@ -127,12 +127,14 @@ body
 
 .fb
 {
-	margin: 10px;
-	width: 105px;
-	height: 142px;
+	margin: 23px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
 	background-color: #4668b3;
 	float: left;
 }
+
 .fb:hover
 {
 	background-color:  #3557a2
