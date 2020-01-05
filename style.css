@@ -16,10 +16,27 @@ body
 .rectangle
 {
 	width: 960px;
-	margin: 20px;
-	top-margin-bottom: 20px;
+	margin: 10px;
+	padding: 15px 5px 5px 15px;
 	text-align: center;
+	text-bottom: center;
 	background-color: #666666;
+	border-radius: 10px;
+	text-shadow: 
+	2px 2px 0 #33402a,
+	-2px 2px 0 #33402a,
+	-2px -2px 0 #33402a,
+	2px -2px 0 #33402a;
+}	
+
+.tootsy
+{
+	width: 960px;
+	margin:10px;
+	padding: 5px 5px 5px 15px;
+	text-align: center;
+	text-bottom: center;
+	background-color: #939F1D;
 	border-radius: 10px;
 	
 }	
@@ -175,6 +192,7 @@ a.tilelink
 	display: block;
 	width: 230px;
 	height: 142px;
+	border-radius: 10px;v
 }
 
 a.tilelinkhtml5
@@ -190,4 +208,5 @@ a.sociallink
 	display: block;
 	width: 145px;
 	height: 142px;
+	border-radius: 10px;
 }
